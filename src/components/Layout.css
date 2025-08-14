@@ -1,0 +1,31 @@
+.bottom-right-nav {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.bottom-right-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(8px);
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  gap: 16px;
+}
+
+.bottom-right-nav ul li a {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-size: 20px;
+  padding: 6px;
+  transition: all 0.3s ease;
+}
+
+.bottom-right-nav ul li a:hover {
+  color: #ffcc00;
+  transform: scale(1.15);
+}
